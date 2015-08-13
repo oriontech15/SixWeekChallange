@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		DB18A21D1B7BA84A00EB40AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18A21C1B7BA84A00EB40AB /* main.m */; };
 		DB18A2201B7BA84A00EB40AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18A21F1B7BA84A00EB40AB /* AppDelegate.m */; };
-		DB18A2231B7BA84A00EB40AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18A2221B7BA84A00EB40AB /* ViewController.m */; };
-		DB18A2261B7BA84A00EB40AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB18A2241B7BA84A00EB40AB /* Main.storyboard */; };
 		DB18A2281B7BA84A00EB40AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB18A2271B7BA84A00EB40AB /* Images.xcassets */; };
 		DB18A22B1B7BA84A00EB40AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB18A2291B7BA84A00EB40AB /* LaunchScreen.xib */; };
 		DB18A2371B7BA84A00EB40AB /* PairsGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18A2361B7BA84A00EB40AB /* PairsGeneratorTests.m */; };
+		DB18A2421B7BA8BB00EB40AB /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18A2411B7BA8BB00EB40AB /* Student.m */; };
+		DB18A2451B7BA8CC00EB40AB /* PairsViewControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18A2441B7BA8CC00EB40AB /* PairsViewControllerDataSource.m */; };
+		DB18A2481B7BA8D800EB40AB /* PairsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18A2471B7BA8D800EB40AB /* PairsController.m */; };
+		DB18A24B1B7BA8E500EB40AB /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18A24A1B7BA8E500EB40AB /* Stack.m */; };
+		DB18A24E1B7BAE1600EB40AB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB18A24C1B7BAE1600EB40AB /* Model.xcdatamodeld */; };
+		DB18A2501B7BB06800EB40AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB18A24F1B7BB06800EB40AB /* Main.storyboard */; };
+		DB18A2591B7BBB4800EB40AB /* PairsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18A2581B7BBB4800EB40AB /* PairsMainViewController.m */; };
+		DBEAC0F91B7BFC5E0083570A /* PairTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEAC0F81B7BFC5E0083570A /* PairTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,25 @@
 		DB18A21C1B7BA84A00EB40AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB18A21E1B7BA84A00EB40AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB18A21F1B7BA84A00EB40AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DB18A2211B7BA84A00EB40AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DB18A2221B7BA84A00EB40AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DB18A2251B7BA84A00EB40AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB18A2271B7BA84A00EB40AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DB18A22A1B7BA84A00EB40AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DB18A2301B7BA84A00EB40AB /* PairsGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PairsGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB18A2351B7BA84A00EB40AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB18A2361B7BA84A00EB40AB /* PairsGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PairsGeneratorTests.m; sourceTree = "<group>"; };
+		DB18A2401B7BA8BB00EB40AB /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		DB18A2411B7BA8BB00EB40AB /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		DB18A2431B7BA8CC00EB40AB /* PairsViewControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PairsViewControllerDataSource.h; sourceTree = "<group>"; };
+		DB18A2441B7BA8CC00EB40AB /* PairsViewControllerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PairsViewControllerDataSource.m; sourceTree = "<group>"; };
+		DB18A2461B7BA8D800EB40AB /* PairsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PairsController.h; sourceTree = "<group>"; };
+		DB18A2471B7BA8D800EB40AB /* PairsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PairsController.m; sourceTree = "<group>"; };
+		DB18A2491B7BA8E500EB40AB /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		DB18A24A1B7BA8E500EB40AB /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		DB18A24D1B7BAE1600EB40AB /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		DB18A24F1B7BB06800EB40AB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		DB18A2571B7BBB4800EB40AB /* PairsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PairsMainViewController.h; sourceTree = "<group>"; };
+		DB18A2581B7BBB4800EB40AB /* PairsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PairsMainViewController.m; sourceTree = "<group>"; };
+		DBEAC0F71B7BFC5E0083570A /* PairTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PairTableViewCell.h; sourceTree = "<group>"; };
+		DBEAC0F81B7BFC5E0083570A /* PairTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PairTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +100,20 @@
 			children = (
 				DB18A21E1B7BA84A00EB40AB /* AppDelegate.h */,
 				DB18A21F1B7BA84A00EB40AB /* AppDelegate.m */,
-				DB18A2211B7BA84A00EB40AB /* ViewController.h */,
-				DB18A2221B7BA84A00EB40AB /* ViewController.m */,
-				DB18A2241B7BA84A00EB40AB /* Main.storyboard */,
+				DB18A2571B7BBB4800EB40AB /* PairsMainViewController.h */,
+				DB18A2581B7BBB4800EB40AB /* PairsMainViewController.m */,
+				DB18A2401B7BA8BB00EB40AB /* Student.h */,
+				DB18A2411B7BA8BB00EB40AB /* Student.m */,
+				DB18A2431B7BA8CC00EB40AB /* PairsViewControllerDataSource.h */,
+				DB18A2441B7BA8CC00EB40AB /* PairsViewControllerDataSource.m */,
+				DBEAC0F71B7BFC5E0083570A /* PairTableViewCell.h */,
+				DBEAC0F81B7BFC5E0083570A /* PairTableViewCell.m */,
+				DB18A2461B7BA8D800EB40AB /* PairsController.h */,
+				DB18A2471B7BA8D800EB40AB /* PairsController.m */,
+				DB18A24C1B7BAE1600EB40AB /* Model.xcdatamodeld */,
+				DB18A2491B7BA8E500EB40AB /* Stack.h */,
+				DB18A24A1B7BA8E500EB40AB /* Stack.m */,
+				DB18A24F1B7BB06800EB40AB /* Main.storyboard */,
 				DB18A2271B7BA84A00EB40AB /* Images.xcassets */,
 				DB18A2291B7BA84A00EB40AB /* LaunchScreen.xib */,
 				DB18A21A1B7BA84A00EB40AB /* Supporting Files */,
@@ -199,9 +227,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB18A2261B7BA84A00EB40AB /* Main.storyboard in Resources */,
 				DB18A22B1B7BA84A00EB40AB /* LaunchScreen.xib in Resources */,
 				DB18A2281B7BA84A00EB40AB /* Images.xcassets in Resources */,
+				DB18A2501B7BB06800EB40AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +247,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB18A2231B7BA84A00EB40AB /* ViewController.m in Sources */,
+				DBEAC0F91B7BFC5E0083570A /* PairTableViewCell.m in Sources */,
+				DB18A24B1B7BA8E500EB40AB /* Stack.m in Sources */,
 				DB18A2201B7BA84A00EB40AB /* AppDelegate.m in Sources */,
+				DB18A2591B7BBB4800EB40AB /* PairsMainViewController.m in Sources */,
+				DB18A24E1B7BAE1600EB40AB /* Model.xcdatamodeld in Sources */,
 				DB18A21D1B7BA84A00EB40AB /* main.m in Sources */,
+				DB18A2421B7BA8BB00EB40AB /* Student.m in Sources */,
+				DB18A2451B7BA8CC00EB40AB /* PairsViewControllerDataSource.m in Sources */,
+				DB18A2481B7BA8D800EB40AB /* PairsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +278,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB18A2241B7BA84A00EB40AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB18A2251B7BA84A00EB40AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB18A2291B7BA84A00EB40AB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +442,7 @@
 				DB18A23C1B7BA84A00EB40AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB18A23D1B7BA84A00EB40AB /* Build configuration list for PBXNativeTarget "PairsGeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -424,8 +451,22 @@
 				DB18A23F1B7BA84A00EB40AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB18A24C1B7BAE1600EB40AB /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB18A24D1B7BAE1600EB40AB /* Model.xcdatamodel */,
+			);
+			currentVersion = DB18A24D1B7BAE1600EB40AB /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DB18A20F1B7BA84A00EB40AB /* Project object */;
 }
