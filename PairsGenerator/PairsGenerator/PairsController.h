@@ -17,7 +17,6 @@
 
 -(Student *)createStudentWith:(NSString *)name;
 -(NSArray *)students;
--(void)randomizeArrayFrom:(NSArray *)array;
 -(void)save;
 -(void)removeStudent:(Student *)student;
 

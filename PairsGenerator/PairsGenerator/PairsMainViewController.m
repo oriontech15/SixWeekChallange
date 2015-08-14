@@ -20,7 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [PairsController sharedInstance].array = [PairsController sharedInstance].students;
+    [PairsController sharedInstance].array = [[PairsController sharedInstance].students mutableCopy];
     self.view.backgroundColor =  [UIColor colorWithRed:0.000f green:1.000f blue:0.590f alpha:1.00f]; //Light Green
 }
 
@@ -30,7 +30,22 @@
 }
 - (IBAction)showMeTheMoneyTapped:(id)sender
 {
-    [[PairsController sharedInstance] randomizeArrayFrom:[PairsController sharedInstance].students];
+    [PairsController sharedInstance].array = [PairsController sharedInstance].students.mutableCopy;
+    
+    NSUInteger count = [PairsController sharedInstance].students.count;
+    
+    for (NSUInteger i = 0; i < count; ++i) {
+        
+        NSInteger remainingCount = count - i;
+        
+        NSInteger newIndex = i + arc4random_uniform((u_int32_t)remainingCount);
+        
+        [[PairsController sharedInstance].array exchangeObjectAtIndex:i withObjectAtIndex:newIndex];
+    }
+    
+    NSLog(@"Array outside random loop: %@", [PairsController sharedInstance].array);
+    
+    [[PairsController sharedInstance] save];
     [self.tableView reloadData];
 }
 

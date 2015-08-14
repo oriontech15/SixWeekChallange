@@ -56,24 +56,4 @@ static NSString *allStudents = @"allStudents";
     [student.managedObjectContext deleteObject:student];
 }
 
--(void)randomizeArrayFrom:(NSArray *)array
-{
-        
-        self.array = [PairsController sharedInstance].students.mutableCopy;
-        
-        NSUInteger count = [PairsController sharedInstance].students.count;
-        
-        for (NSUInteger i = 0; i < count; ++i) {
-            
-            NSInteger remainingCount = count - i;
-            
-            NSInteger newIndex = i + arc4random_uniform((u_int32_t)remainingCount);
-            
-            [self.array exchangeObjectAtIndex:i withObjectAtIndex:newIndex];
-        }
-        
-        [[PairsController sharedInstance] save];
-        
-};
-
 @end

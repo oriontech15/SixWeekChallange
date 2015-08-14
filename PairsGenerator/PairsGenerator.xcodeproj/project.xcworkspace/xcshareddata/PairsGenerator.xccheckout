@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F1C69A69-D215-4702-969B-416E53D8B296</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PairsGenerator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>744C8A4D70452032D2A610C8F1E4DA233E81AB0F</key>
+		<string>https://github.com/oriontech15/SixWeekChallange.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PairsGenerator/PairsGenerator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>744C8A4D70452032D2A610C8F1E4DA233E81AB0F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/oriontech15/SixWeekChallange.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>744C8A4D70452032D2A610C8F1E4DA233E81AB0F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>744C8A4D70452032D2A610C8F1E4DA233E81AB0F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-six-week-technical-challenge</string>
+		</dict>
+	</array>
+</dict>
+</plist>

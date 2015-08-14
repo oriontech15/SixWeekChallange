@@ -19,11 +19,9 @@
 {
     PairTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID"];
     
-    [PairsController sharedInstance].array = [[NSMutableArray alloc]initWithArray:[PairsController sharedInstance].students];
-    
-    
-    
     NSLog(@"Log Array: %@", [PairsController sharedInstance].array[indexPath.row]);
+    
+    NSLog(@"Array dataSource: %@", [PairsController sharedInstance].array);
     
     
     cell.leftStudentLabel.text = [NSString stringWithFormat:@"%@", [[PairsController sharedInstance].array[indexPath.row * 2] valueForKey:@"studentName"]];
